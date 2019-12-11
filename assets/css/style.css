@@ -1,7 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+
 .hero-image {
-    background: url(../images/first-full-bg.png) no-repeat center center fixed;
+    height: 100em;
+	width: 100%;
+    background: url(../images/sunrise.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    animation-name: hero-zoom;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
 }
+
+.hero-outer {
+    height: 100Vh;
+    width: 100Vw;
+	overflow: hidden;
+	position: relative;
+}
+
+@keyframes hero-zoom {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(1.3);
+	}
+}
+
+.hero-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 150%;
+	text-transform: capitalize;
+	letter-spacing: 4px;
+	width: 100%;
+	height: 150px;
+	background-color: rgba(150, 217, 255, 0.9);
+    position: absolute;
+    top: 35%;
+    padding-top: 30px;
+    padding-left: 30px;
+    color: white;
+}
+
+.menucontainer {
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    margin-right: 0;
+    border: 0;
+    width: 100%;
+}
+
+.nav-link {
+    padding: 0;
+}
+
+.navbar .navbar-collapse {
+    text-align: right;
+    border-top: 1px solid transparent;
+    overflow-x: hidden;
+}
+
+.btn {
+    width: 100px;
+    color: white;
+    opacity: 0.8;
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+.ml-auto {
+    margin-bottom: 3px;
+}
+
+/* About me */
+
+
+/* Portfolio */
+
+
+/* Contact */
