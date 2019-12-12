@@ -12,7 +12,7 @@
 </head>
 
 <body>
-	<header class="jumbotron" id="landing-page">
+	<header class="container-fluid jumbotron" id="landing-page">
 		<nav class="navbar navbar-light fixed-top">
 			<div class="container">
 				<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,12 +37,17 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-12">
+				<div class="d-none d-sm col-12">
 					<img src="assets/images/my-img.jpg" alt="Picture of myself" class="rounded-circle center" width="200" height="200">
                 </div>
 				</div>
 			</div>
 	</header>
+	<section>
+		<div class="container-fluid">
+			<h1>Hello</h1>
+		</div>
+	</section>
 	<!-- Header will contain a picture of me and some basic information (name, and that stuff) and navigation bar-->
 
 
@@ -51,8 +56,8 @@
     
     About page:
         -about me
-        -motivation and that stuff -->
-	<section id="about-me">
+        -motivation and that stuff 
+	<section class="container-fluid" id="about-me">
 		<div class="container about">
 			<div class="row">
 				<h2>About</h2>
@@ -68,18 +73,56 @@
 	-name above and icon beneath (column)
 	-work history on side as timeline (1/3width)
 	-hover pop-up (what i did) -->
-	<section>
 
-	</section>
 	<!--Contact page:
 	- contact form
 	- sharing link ( something like "save me" download?)
 	-->
-	<section>
 
-	</section>
 	<!-- Footer will contain social links (linkedin, github and other)-->
-	<footer>
+	<footer class="container-fluid social-links">
+		<div class="row">
+			<ul class="list-inline">
+				<li class="list-inline-item">
+					<a href="https://www.facebook.com/" target="-blank">
+						<i class="fa fa-facebook" aria-hidden="true"></i>
+						<span class="sr-only">Facebook</span>
+					</a>
+				</li>
+				<li class="list-inline-item">
+					<a href="https://twitter.com/" target="-blank">
+						<i class="fa fa-twitter" aria-hidden="true"></i>
+						<span class="sr-only">Twitter</span>
+					</a>
+				</li>
+				<li class="list-inline-item">
+					<a href="https://www.linkedin.com/" target="-blank">
+						<i class="fa fa-linkedin" aria-hidden="true"></i>
+						<span class="sr-only">LinkedIn</span>
+					</a>
+				</li>
+				<li class="list-inline-item">
+					<a href="https://www.pinterest.com/" target="-blank">
+						<i class="fa fa-pinterest" aria-hidden="true"></i>
+						<span class="sr-only">Pinterest</span>
+					</a>
+				</li>
+				<li class="list-inline-item">
+					<a href="https://www.instagram.com/" target="-blank">
+						<i class="fa fa-instagram" aria-hidden="true"></i>
+						<span class="sr-only">Instagram</span>
+					</a>
+				</li>
+				<li class="list-inline-item">
+					<a href="https://www.youtube.com/" target="-blank">
+						<i class="fa fa-youtube" aria-hidden="true"></i>
+						<span class="sr-only">YouTube</span>
+					</a>
+				</li>
+			</ul>
+
+		</div>
+
 	</footer>
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

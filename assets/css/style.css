@@ -1,10 +1,16 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+/*#landing-page {
+    height: 100Vh;
+    background: url("../images/sunrise.jpg") no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
 
 
 /* Landing page */
@@ -15,10 +21,12 @@
     background-position: bottom;
     background-size: cover;
     height: 100vh;
-    width: 100vw;
     margin-bottom: 0px;
-    z-index: 1;
-}
+    z-index: 1; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
     /* animation-name: picture-zoom;
 	animation-duration: 3s;
 	animation-fill-mode: forwards;
@@ -47,10 +55,8 @@
     margin-left: auto;
     margin-right: auto;
 }
-/*position: absolute;
-    top: 10%;
-    padding-top: 30px;
-    padding-left: 30px;*/
+
+/* Jumbotron */
 
 h1 {
     padding-top: 5%;
@@ -61,15 +67,10 @@ h1 {
     font-size: 1.5em;
 }
 
-.menucontainer {
-    text-align: center;
-}
-
 /* Navbar */
 .navbar {
     margin-right: 0;
     border: 0;
-    width: 100%;
 }
 
 .nav-link {
@@ -107,3 +108,40 @@ h1 {
 
 
 /* Contact */
+
+.social-links {
+    background-color: gray;
+    font-size: 150%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.social-links h5 {
+    color: blue;
+    display: inline-block;
+}
+
+.social-links li a i{
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover{
+    background: #e81010;
+}
+
+
+ul {
+    margin-bottom: 0px;
+}
