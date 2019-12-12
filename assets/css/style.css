@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-
+/* Smooth scroll - from w3school.com  - not working on IE/Edge and Safari */
+html {
+  scroll-behavior: smooth;
+}
 
 /* Landing page */
 
@@ -150,11 +153,11 @@ h1 {
 .card {
     background-color: transparent;
     border: none;
-    min-width: 130px;
-    min-height: 130px;
-    max-width: 220px;
-    max-height: 220px;
-    width: 13vw;
+    min-width: 150px;
+    min-height: 150px;
+    max-width: 210px;
+    max-height: 210px;
+    width: 10vw;
 }
 
 .card-center {
