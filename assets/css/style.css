@@ -94,6 +94,15 @@ h1 {
     color: black;
 }
 
+.personal-info ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+/*.personal-info ul li {
+    padding: 4px 0px;
+}*/
+
 .personal-img {
     width: 35vw;
     height: 35vw;
@@ -147,7 +156,7 @@ h1 {
     background-image: url('../images/blue.jpg');
     background-position: bottom;
     background-size: cover;
-    height: 94.5vh;
+    height: 93vh;
     margin-bottom: 0px;
     z-index: 1; 
 }
@@ -176,7 +185,7 @@ h1 {
 .btn-submit {
     margin: auto;
     background-color: blue;
-    width: 200px;
+    width: 100px;
 }
 
 .text-center {
@@ -205,8 +214,8 @@ ul {
 }
 
 .social-links li a i{
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
     padding: 12px 0;
     border-radius: 50%;
     font-size: 13px;
