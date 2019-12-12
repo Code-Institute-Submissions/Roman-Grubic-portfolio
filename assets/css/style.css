@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+
+
 /* Landing page */
 
 #landing-page {
@@ -61,6 +63,7 @@ h1 {
 }
 
 .btn {
+    text-shadow: 1px 1px #000000;
     width: 100px;
     color: white;
     margin: 4px;
@@ -76,7 +79,7 @@ h1 {
     margin-right: 0;
 }
 /* About me */
-#about-me-image {
+#about-me {
     background-attachment: fixed;
     background-image: url('../images/test-1.png');
     background-position: bottom;
@@ -88,7 +91,7 @@ h1 {
 
 
 /* Portfolio */
-#portfolio-image {
+#portfolio {
     background-attachment: fixed;
     background-image: url('../images/rainbow.jpg');
     background-position: bottom;
@@ -98,8 +101,20 @@ h1 {
     z-index: 1; 
 }
 
+.card {
+    background-color: transparent;
+    border: none;
+    min-width: 150px;
+    min-height: 150px;
+    width: 15vw;
+}
+
+.card-image-top {
+
+}
+
 /* Contact */
-#contact-image {
+#contact {
     background-attachment: fixed;
     background-image: url('../images/blue.jpg');
     background-position: bottom;
@@ -109,13 +124,14 @@ h1 {
     z-index: 1; 
 }
 
-#contact {
+#contact.stuff {
     padding-top: 10%;
     height: 500px;
 }
 .contact-text {
     text-align: center;
 }
+
 .center-form {
     padding-top: 30px;
     margin: 0 auto;
