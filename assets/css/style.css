@@ -16,7 +16,6 @@
 }  
 
 .landing-text {
-    display: block;
     font-family: "Roboto", sans-serif;
 	text-transform: capitalize;
 	letter-spacing: 4px;
@@ -35,6 +34,10 @@
 h1 {
     padding-top: 5%;
     font-size: 5em;
+}
+
+.jumbotron {
+    border-radius: 0;
 }
 
 .jumbotron p {
@@ -60,7 +63,7 @@ h1 {
 .btn {
     width: 100px;
     color: white;
-    margin-bottom: 3px;
+    margin: 4px;
     font-weight: 500;
     background-color: transparent;
     border: none;
@@ -73,17 +76,71 @@ h1 {
     margin-right: 0;
 }
 /* About me */
-
-.about {
-    padding-bottom: 10%;
-    font-size: 1.75em;
-    line-height: 2;
+#about-me-image {
+    background-attachment: fixed;
+    background-image: url('../images/test-1.png');
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 0px;
+    z-index: 1; 
 }
 
-/* Portfolio */
 
+/* Portfolio */
+#portfolio-image {
+    background-attachment: fixed;
+    background-image: url('../images/rainbow.jpg');
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 0px;
+    z-index: 1; 
+}
 
 /* Contact */
+#contact-image {
+    background-attachment: fixed;
+    background-image: url('../images/blue.jpg');
+    background-position: bottom;
+    background-size: cover;
+    height: 94.5vh;
+    margin-bottom: 0px;
+    z-index: 1; 
+}
+
+#contact {
+    padding-top: 10%;
+    height: 500px;
+}
+.contact-text {
+    text-align: center;
+}
+.center-form {
+    padding-top: 30px;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+/*Div around submit button */
+.submit-btn {
+    padding-top: 20px;
+}
+
+.btn-submit {
+    margin: auto;
+    background-color: blue;
+    width: 200px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.form-control {
+    padding: 10px;
+    margin-bottom: 5px;
+}
 
 /* Footer */
 
@@ -92,9 +149,9 @@ h1 {
 }
 
 .social-links {
-    background-color: rgba(0,113,255, 0.4);
-    padding-top: 15px;
-    padding-bottom: 15px;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 ul {

@@ -20,11 +20,11 @@
 				<div class="collapse navbar-collapse" id="navbarNavDropdown">
 					<ul class="nav navbar-nav navbar-right">
 						<li class="nav-item"><a class="page-scroll"
-								href="#"><button type="button" class="btn btn-success">About me</button></li>
+								href="#about-me-image"><button type="button" class="btn btn-success">About me</button></li>
 						<li class="nav-item"><a class="page-scroll"
-								href="#"><button type="button" class="btn btn-danger">Portfolio</button></li>
+								href="#portfolio-image"><button type="button" class="btn btn-danger">Portfolio</button></li>
 						<li class="nav-item"><a class="page-scroll"
-								href="#"><button type="button" class="btn btn-primary">Contact</button></li>
+								href="#contact-image"><button type="button" class="btn btn-primary">Contact</button></li>
 					</ul>
 				</div>
 			</div>
@@ -43,11 +43,7 @@
 				</div>
 			</div>
 	</header>
-	<section class="container-fluid">
-		<div>
-			<h1>Hello</h1>
-		</div>
-	</section>
+	
 	<!-- Header will contain a picture of me and some basic information (name, and that stuff) and navigation bar-->
 
 
@@ -56,15 +52,12 @@
     
     About page:
         -about me
-        -motivation and that stuff 
-	<section class="container-fluid" id="about-me">
-		<div class="container about">
-			<div class="row">
-				<h2>About</h2>
-			</div>
-		</div>
+        -motivation and that stuff -->
 
-	</section>
+    <section class="container-fluid" id="about-me-image">
+        
+    </section>
+	
 
 	<!--Skills/portfolio:
 	-skills (html,css,bootstrap) 1/3heigth
@@ -74,10 +67,36 @@
 	-work history on side as timeline (1/3width)
 	-hover pop-up (what i did) -->
 
+    <section class="container-fluid" id="portfolio-image">
+        
+    </section>
 	<!--Contact page:
 	- contact form
 	- sharing link ( something like "save me" download?)
 	-->
+	<section class="container-fluid" id="contact-image">
+		<div class="row" id="contact">
+			<div class="col-sm-4 "></div>
+			<div class="col-xs-12 col-sm-8">
+				<div class="contact-text">
+					<h2>Do you have project in mind?</h2>
+					<h3>Contact me!</h3>
+				</div>
+				<div class="center-form">
+					<form>
+						<input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required="">
+						<input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required="">
+						<textarea name="projectsummary" id="projectsummary" rows="10" class="form-control" placeholder="Project description" required="" style="margin-top: 0px; margin-bottom: 0px; height: 184px;"></textarea>
+						<div class="text-center">
+							<div class="submit-btn">
+								<button type="submit" class="btn btn-submit btn-success">Send Project Request</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<!-- Footer will contain social links (linkedin, github and other)-->
 	<footer class="container-fluid social-links">
