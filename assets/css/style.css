@@ -21,7 +21,7 @@
     font-family: "Roboto", sans-serif;
 	text-transform: capitalize;
 	letter-spacing: 4px;
-    color: white;
+    color: #fafafa;
     text-decoration: none;      
 }
 
@@ -89,16 +89,47 @@ h1 {
     z-index: 1; 
 }
 
+.personal-info{
+   padding-top: 50px;
+    color: black;
+}
+
+.personal-img {
+    width: 35vw;
+    height: 35vw;
+    text-align: center;
+    justify-items: center;
+}
+
+.personal-img-div {
+    padding-top: 50px;
+}
+
+.personal-pitch {
+    padding-top: 40px;
+    color: black;
+}
+
 
 /* Portfolio */
 #portfolio {
     background-attachment: fixed;
-    background-image: url('../images/rainbow.jpg');
+    background-image: url('../images/light-blue.jpg');
     background-position: bottom;
     background-size: cover;
     height: 100vh;
     margin-bottom: 0px;
     z-index: 1; 
+}
+
+.portfolio-text {
+    color: white;
+    padding: 50px 5px 10px;
+}
+
+.portfolio-header {
+    text-align: center;
+    color: white;
 }
 
 .card {
@@ -109,9 +140,6 @@ h1 {
     width: 15vw;
 }
 
-.card-image-top {
-
-}
 
 /* Contact */
 #contact {
@@ -129,7 +157,9 @@ h1 {
     height: 500px;
 }
 .contact-text {
+    padding-top: 15vh;
     text-align: center;
+    color: black;
 }
 
 .center-form {
