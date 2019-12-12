@@ -92,6 +92,8 @@ h1 {
 .personal-info{
    padding-top: 50px;
     color: black;
+    text-align: center;
+    justify-items: center;
 }
 
 .personal-info ul {
@@ -106,17 +108,21 @@ h1 {
 .personal-img {
     width: 35vw;
     height: 35vw;
+    max-width: 250px;
+    max-height: 250px;
     text-align: center;
     justify-items: center;
 }
 
 .personal-img-div {
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 .personal-pitch {
-    padding-top: 40px;
     color: black;
+    padding: 40px 15vw 0px;
+    text-align: center;
+    justify-items: center;
 }
 
 
@@ -144,11 +150,16 @@ h1 {
 .card {
     background-color: transparent;
     border: none;
-    min-width: 150px;
-    min-height: 150px;
-    width: 15vw;
+    min-width: 130px;
+    min-height: 130px;
+    max-width: 220px;
+    max-height: 220px;
+    width: 13vw;
 }
 
+.card-center {
+    text-align: center;
+}
 
 /* Contact */
 #contact {
