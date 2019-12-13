@@ -9,7 +9,7 @@ html {
 
 #landing-page {
     background-attachment: fixed;
-    background-image: url('../images/sunrise.jpg');
+    background-image: url('../images/background/sunrise.jpg');
     background-position: bottom;
     background-size: cover;
     height: 100vh;
@@ -83,7 +83,7 @@ h1 {
 /* About me */
 #about-me {
     background-attachment: fixed;
-    background-image: url('../images/test-1.png');
+    background-image: url('../images/background/test-1.png');
     background-position: bottom;
     background-size: cover;
     height: 100vh;
@@ -95,7 +95,14 @@ h1 {
     color: black;
     text-align: center;
     padding-top: 10vh;
+    font-size: 20px;
 }
+
+.col-7 > h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
 
 .personal-info ul {
     list-style-type: none;
@@ -109,6 +116,8 @@ h1 {
 .personal-img {
     width: 20vw;
     height: 20vw;
+    min-width: 125px;
+    min-height: 125px;
     max-width: 250px;
     max-height: 250px;
     text-align: center;
@@ -121,14 +130,14 @@ h1 {
 
 .personal-pitch {
     color: black;
-    padding: 40px 15vw 0px;
+    padding: 15vh 15vw;
 }
 
 
 /* Portfolio */
 #portfolio {
     background-attachment: fixed;
-    background-image: url('../images/light-blue.jpg');
+    background-image: url('../images/background/light-blue.jpg');
     background-position: bottom;
     background-size: cover;
     height: 100vh;
@@ -142,17 +151,21 @@ h1 {
 }
 
 .portfolio-header {
-    text-align: center;
     color: white;
 }
-.portfolio-images {
-    text-align: center;
-    display: block;
+.portfolio-images > img {
+display: block;
+width: 15vw;
+height: 15vw;
+min-width: 100px;
+min-height: 100px;
+max-width: 150px;
+max-height: 150px;
+margin: 5px auto;
+background-color: transparent;
 }
 
-.portfolio-images>img {
-    width: 15vw;
-}
+
 
 
 
@@ -169,7 +182,7 @@ h1 {
 /* Contact */
 #contact {
     background-attachment: fixed;
-    background-image: url('../images/blue.jpg');
+    background-image: url('../images/background/blue.jpg');
     background-position: bottom;
     background-size: cover;
     height: 95vh;
