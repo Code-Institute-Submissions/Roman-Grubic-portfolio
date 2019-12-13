@@ -24,8 +24,7 @@ html {
     font-family: "Roboto", sans-serif;
 	text-transform: capitalize;
 	letter-spacing: 4px;
-    color: #fafafa;
-    text-decoration: none;      
+    color: white;      
 }
 
 .center {
@@ -93,10 +92,9 @@ h1 {
 }
 
 .personal-info{
-   padding-top: 50px;
     color: black;
     text-align: center;
-    justify-items: center;
+    padding-top: 10vh;
 }
 
 .personal-info ul {
@@ -109,8 +107,8 @@ h1 {
 }*/
 
 .personal-img {
-    width: 35vw;
-    height: 35vw;
+    width: 20vw;
+    height: 20vw;
     max-width: 250px;
     max-height: 250px;
     text-align: center;
@@ -124,8 +122,6 @@ h1 {
 .personal-pitch {
     color: black;
     padding: 40px 15vw 0px;
-    text-align: center;
-    justify-items: center;
 }
 
 
@@ -149,19 +145,25 @@ h1 {
     text-align: center;
     color: white;
 }
+.portfolio-images {
+    text-align: center;
+    display: block;
+}
+
+.portfolio-images>img {
+    width: 15vw;
+}
+
+
 
 .card {
     background-color: transparent;
     border: none;
-    min-width: 150px;
-    min-height: 150px;
+    min-width: 120px;
+    min-height: 120px;
     max-width: 210px;
     max-height: 210px;
-    width: 10vw;
-}
-
-.card-center {
-    text-align: center;
+    width: 12vw;
 }
 
 /* Contact */
@@ -170,14 +172,13 @@ h1 {
     background-image: url('../images/blue.jpg');
     background-position: bottom;
     background-size: cover;
-    height: 93vh;
+    height: 95vh;
     margin-bottom: 0px;
     z-index: 1; 
 }
 
 #contact.stuff {
-    padding-top: 10%;
-    height: 500px;
+    height: 80vw;
 }
 .contact-text {
     padding-top: 15vh;
@@ -188,7 +189,9 @@ h1 {
 .center-form {
     padding-top: 30px;
     margin: 0 auto;
-    max-width: 80%;
+    min-width: 300px;
+    width: 60vw;
+    max-width: 700px
 }
 
 /*Div around submit button */
