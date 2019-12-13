@@ -91,28 +91,6 @@ h1 {
     z-index: 1; 
 }
 
-.personal-info{
-    color: black;
-    text-align: center;
-    padding-top: 10vh;
-    font-size: 20px;
-}
-
-.col-7 > h3 {
-    font-size: 30px;
-    font-weight: 700;
-}
-
-
-.personal-info ul {
-    list-style-type: none;
-    padding-left: 10px;
-}
-
-/*.personal-info ul li {
-    padding: 4px 0px;
-}*/
-
 .personal-img {
     width: 20vw;
     height: 20vw;
@@ -128,11 +106,33 @@ h1 {
     padding-top: 25px;
 }
 
-.personal-pitch {
+.personal-info{
     color: black;
-    padding: 15vh 15vw;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 10vh;
+    font-size: 2.5vh;
 }
 
+.col-7 > h3 {
+    font-size: 3.5vh;
+    font-weight: 700;
+}
+
+.personal-pitch {
+    color: black;    
+    padding: 15vh 15vw;
+    font-size: 3vh;
+}
+
+.personal-info ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.fas {
+    color: rgb(51, 162, 253)
+}
 
 /* Portfolio */
 #portfolio {
@@ -146,12 +146,17 @@ h1 {
 }
 
 .portfolio-text {
-    color: white;
+    color: black;
+    text-align: center;
+    font-size: 2vh;
+    font-weight: 500;
     padding: 50px 5px 10px;
 }
 
-.portfolio-header {
-    color: white;
+.portfolio-header > h2 {
+    color: black;
+    font-size: 4.5vh;
+    font-weight: 700;
 }
 .portfolio-images {
 display: block;
@@ -185,13 +190,13 @@ background-color: transparent;
     background-image: url('../images/background/blue.jpg');
     background-position: bottom;
     background-size: cover;
-    height: 95vh;
+    height: 92vh;
     margin-bottom: 0px;
     z-index: 1; 
 }
 
 #contact.stuff {
-    height: 80vw;
+    height: 60vw;
 }
 .contact-text {
     padding-top: 15vh;
@@ -214,8 +219,9 @@ background-color: transparent;
 
 .btn-submit {
     margin: auto;
-    background-color: blue;
+    background-color:rgb(51, 162, 253);
     width: 100px;
+    border: 1px solid #00000050;
 }
 
 .text-center {
@@ -235,8 +241,8 @@ background-color: transparent;
 
 .social-links {
     background-color: transparent;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 ul {
@@ -252,7 +258,7 @@ ul {
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background: green;
+    background: rgb(51, 162, 253);
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
