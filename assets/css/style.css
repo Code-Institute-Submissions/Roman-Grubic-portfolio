@@ -153,7 +153,7 @@ h1 {
 .portfolio-header {
     color: white;
 }
-.portfolio-images > img {
+.portfolio-images {
 display: block;
 width: 15vw;
 height: 15vw;
@@ -161,7 +161,7 @@ min-width: 100px;
 min-height: 100px;
 max-width: 150px;
 max-height: 150px;
-margin: 5px auto;
+margin: 15px auto;
 background-color: transparent;
 }
 
