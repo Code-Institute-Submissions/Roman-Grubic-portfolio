@@ -84,7 +84,7 @@ h1 {
 /* About me */
 #about-me {
     background-attachment: fixed;
-    background-image: url('../images/background/.jpg');
+    background-image: url('../images/background/sand-sea.jpg');
     background-position: bottom;
     background-size: cover;
     height: 100vh;
@@ -121,9 +121,11 @@ h1 {
 }
 
 .personal-pitch {
-    color: black;    
+    color: white;    
     padding: 15vh 15vw;
     font-size: 3vh;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+    margin-bottom: 5vh;
 }
 
 .personal-info ul {
@@ -138,7 +140,7 @@ h1 {
 /* Portfolio */
 #portfolio {
     background-attachment: fixed;
-    background-image: url('../images/background/.jpg');
+    background-image: url('../images/background/boat-on-seashore.jpg');
     background-position: bottom;
     background-size: cover;
     height: 100vh;
@@ -149,9 +151,13 @@ h1 {
 .portfolio-text {
     color: black;
     text-align: center;
-    font-size: 2vh;
+    font-size: 3vh;
     font-weight: 500;
-    padding: 50px 5px 10px;
+    padding: 5vh 0;
+}
+
+.portfolio-header {
+    padding: 12vh 0 4vh;
 }
 
 .portfolio-header > h2 {
@@ -159,6 +165,7 @@ h1 {
     font-size: 4.5vh;
     font-weight: 700;
 }
+
 .portfolio-images {
 display: block;
 width: 15vw;
@@ -171,24 +178,10 @@ margin: 15px auto;
 background-color: transparent;
 }
 
-
-
-
-
-.card {
-    background-color: transparent;
-    border: none;
-    min-width: 120px;
-    min-height: 120px;
-    max-width: 210px;
-    max-height: 210px;
-    width: 12vw;
-}
-
 /* Contact */
 #contact {
     background-attachment: fixed;
-    background-image: url('../images/background/scenic-view.jpg');
+    background-image: url('../images/background/beach-fun.jpg');
     background-position: bottom;
     background-size: cover;
     height: 92vh;
