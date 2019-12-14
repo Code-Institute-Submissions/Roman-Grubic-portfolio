@@ -9,7 +9,7 @@ html {
 
 #landing-page {
     background-attachment: fixed;
-    background-image: url('../images/background/sunrise.jpg');
+    background-image: url('../images/background/beach-bench.jpg');
     background-position: bottom;
     background-size: cover;
     height: 100vh;
@@ -19,12 +19,13 @@ html {
     align-items: center;
     justify-content: center;
 }  
-
+/* https://stackoverflow.com/questions/2570972/css-font-border */
 .landing-text {
     font-family: "Roboto", sans-serif;
 	text-transform: capitalize;
 	letter-spacing: 4px;
-    color: white;      
+    color: white;
+    text-shadow: -1px 0 #00000025, 0 1px #00000025, 1px 0 #00000025, 0 -1px #00000025;     
 }
 
 .center {
@@ -83,7 +84,7 @@ h1 {
 /* About me */
 #about-me {
     background-attachment: fixed;
-    background-image: url('../images/background/test-1.png');
+    background-image: url('../images/background/.jpg');
     background-position: bottom;
     background-size: cover;
     height: 100vh;
@@ -137,7 +138,7 @@ h1 {
 /* Portfolio */
 #portfolio {
     background-attachment: fixed;
-    background-image: url('../images/background/light-blue.jpg');
+    background-image: url('../images/background/.jpg');
     background-position: bottom;
     background-size: cover;
     height: 100vh;
@@ -187,7 +188,7 @@ background-color: transparent;
 /* Contact */
 #contact {
     background-attachment: fixed;
-    background-image: url('../images/background/blue.jpg');
+    background-image: url('../images/background/scenic-view.jpg');
     background-position: bottom;
     background-size: cover;
     height: 92vh;
