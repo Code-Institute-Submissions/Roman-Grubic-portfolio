@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-/* Smooth scroll - from w3school.com  - not working on IE/Edge and Safari */
+
 html {
   scroll-behavior: smooth;
 }
+
 
 /* Landing page */
 
@@ -18,19 +19,14 @@ html {
     align-items: center;
     justify-content: center;
 }  
-/* https://stackoverflow.com/questions/2570972/css-font-border */
+
+/* Text shadow https://stackoverflow.com/questions/2570972/css-font-border */
 .landing-text {
     font-family: "Roboto", sans-serif;
 	text-transform: capitalize;
 	letter-spacing: 4px;
     color: white;
-    text-shadow: -1px 0 #00000050, 0 1px #00000050, 1px 0 #00000050, 0 -1px #00000050;     
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    text-shadow: -1px 0 #00000050, 0 1px #00000050, 1px 0 #00000050, 0 -1px #00000050;    
 }
 
 /* Jumbotron */
@@ -49,6 +45,7 @@ h1 {
 }
 
 /* Navbar */
+
 .navbar {
     margin-right: 0;
     border: 0;
@@ -80,7 +77,10 @@ h1 {
 .container {
     margin-right: 0;
 }
+
+
 /* About me */
+
 #about-me {
     background-attachment: fixed;
     background-image: url('../images/background/sand-sea-2.jpg');
@@ -113,7 +113,7 @@ h1 {
     font-size: 2.5vh;
 }
 
-.col-7 > h3 {
+.personal-info > h3 {
     font-size: 3.5vh;
     font-weight: 700;
 }
@@ -125,6 +125,7 @@ h1 {
     text-shadow: -1px 0 #00000050, 0 1px #00000050, 1px 0 #00000050, 0 -1px #00000050;
     margin-bottom: 5vh;
 }
+
 .personal-pitch > p > a {
     color:rgb(51, 162, 253);
     text-shadow: none;
@@ -140,7 +141,9 @@ h1 {
     color: rgb(51, 162, 253)
 }
 
+
 /* Portfolio */
+
 #portfolio {
     background-attachment: fixed;
     background-image: url('../images/background/boat-on-seashore.jpg');
@@ -169,7 +172,6 @@ h1 {
     font-size: 4.5vh;
     font-weight: 700;
     text-shadow: -1px 0 #ffffff66, 0 1px #ffffff66, 1px 0 #ffffff66, 0 -1px #ffffff66;
-
 }
 
 .portfolio-images {
@@ -189,7 +191,9 @@ background-color: transparent;
     font-weight: 700;
 }
 
+
 /* Contact */
+
 #contact {
     background-attachment: fixed;
     background-image: url('../images/background/beach-fun.jpg');
@@ -202,12 +206,12 @@ background-color: transparent;
 #contact.stuff {
     height: 60vw;
 }
+
 .contact-text {
     padding-top: 15vh;
     text-align: center;
     color: rgb(0, 0, 0);
     text-shadow: -1px 0 #ffffff66, 0 1px #ffffff66, 1px 0 #ffffff66, 0 -1px #ffffff66;
-
 }
 
 .form-center {
@@ -238,6 +242,7 @@ background-color: transparent;
     padding: 10px;
     margin-bottom: 5px;
 }
+
 
 /* Footer */
 
@@ -275,7 +280,6 @@ ul {
     background: rgb(0, 108, 170);
 }
 
-/* Media queries */
 
 
 
