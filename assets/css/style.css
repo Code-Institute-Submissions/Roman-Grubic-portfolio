@@ -83,7 +83,7 @@ h1 {
 /* About me */
 #about-me {
     background-attachment: fixed;
-    background-image: url('../images/background/sand-sea.jpg');
+    background-image: url('../images/background/sand-sea-2.jpg');
     background-position: bottom;
     background-size: cover;
     height: 100vh;
@@ -120,7 +120,7 @@ h1 {
 
 .personal-pitch {
     color: white;    
-    padding: 15vh 15vw;
+    padding: 15vh 5vw;
     font-size: 3vh;
     text-shadow: -1px 0 #00000050, 0 1px #00000050, 1px 0 #00000050, 0 -1px #00000050;
     margin-bottom: 5vh;
@@ -128,6 +128,7 @@ h1 {
 .personal-pitch > p > a {
     color:rgb(51, 162, 253);
     text-shadow: none;
+
 }
 
 .personal-info ul {
@@ -150,21 +151,25 @@ h1 {
 }
 
 .portfolio-text {
-    color: black;
+    color: #fafafa;
     text-align: center;
-    font-size: 3vh;
+    font-size: 2vh;
     font-weight: 500;
-    padding: 5vh 0;
+    padding: 5vh 10vw 0;
+    text-shadow: -1px 0 #00000066, 0 1px #00000066, 1px 0 #00000066, 0 -1px #00000066;
+
 }
 
 .portfolio-header {
-    padding: 12vh 0 4vh;
+    padding: 7vh 0 4vh;
 }
 
 .portfolio-header > h2 {
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 4.5vh;
     font-weight: 700;
+    text-shadow: -1px 0 #ffffff66, 0 1px #ffffff66, 1px 0 #ffffff66, 0 -1px #ffffff66;
+
 }
 
 .portfolio-images {
@@ -173,13 +178,13 @@ width: 15vw;
 height: 15vw;
 min-width: 100px;
 min-height: 100px;
-max-width: 150px;
-max-height: 150px;
-margin: 15px auto;
+max-width: 120px;
+max-height: 120px;
+margin: 10px auto;
 background-color: transparent;
 }
 
-.portfolio-images > a > p {
+.portfolio-images > p {
     color: rgb(80, 80, 80);
     font-weight: 700;
 }
@@ -201,15 +206,16 @@ background-color: transparent;
     padding-top: 15vh;
     text-align: center;
     color: rgb(0, 0, 0);
+    text-shadow: -1px 0 #ffffff66, 0 1px #ffffff66, 1px 0 #ffffff66, 0 -1px #ffffff66;
+
 }
 
-.center-form {
+.form-center {
     padding-top: 30px;
     margin: 0 auto;
-    min-width: 300px;
+    min-width: 250px;
     width: 60vw;
     max-width: 600px;
-    height: 50vh;
 }
 
 /*Div around submit button */
@@ -268,6 +274,10 @@ ul {
 .social-links li a i:hover{
     background: rgb(0, 108, 170);
 }
+
+/* Media queries */
+
+
 
 
 
