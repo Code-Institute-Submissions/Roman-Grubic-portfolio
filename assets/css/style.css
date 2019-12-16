@@ -14,7 +14,6 @@ html {
     background-size: cover;
     height: 100vh;
     margin-bottom: 0px;
-    z-index: 1; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,7 +24,7 @@ html {
 	text-transform: capitalize;
 	letter-spacing: 4px;
     color: white;
-    text-shadow: -1px 0 #00000025, 0 1px #00000025, 1px 0 #00000025, 0 -1px #00000025;     
+    text-shadow: -1px 0 #00000050, 0 1px #00000050, 1px 0 #00000050, 0 -1px #00000050;     
 }
 
 .center {
@@ -71,7 +70,7 @@ h1 {
     color: white;
     margin: 4px;
     font-weight: 500;
-    background-color: transparent;
+    background-color: rgba(51, 162, 253, 0.66);
     border: none;
 }
 
@@ -89,7 +88,6 @@ h1 {
     background-size: cover;
     height: 100vh;
     margin-bottom: 0px;
-    z-index: 1; 
 }
 
 .personal-img {
@@ -124,8 +122,12 @@ h1 {
     color: white;    
     padding: 15vh 15vw;
     font-size: 3vh;
-    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+    text-shadow: -1px 0 #00000050, 0 1px #00000050, 1px 0 #00000050, 0 -1px #00000050;
     margin-bottom: 5vh;
+}
+.personal-pitch > p > a {
+    color:rgb(51, 162, 253);
+    text-shadow: none;
 }
 
 .personal-info ul {
@@ -145,7 +147,6 @@ h1 {
     background-size: cover;
     height: 100vh;
     margin-bottom: 0px;
-    z-index: 1; 
 }
 
 .portfolio-text {
@@ -178,6 +179,11 @@ margin: 15px auto;
 background-color: transparent;
 }
 
+.portfolio-images > a > p {
+    color: rgb(80, 80, 80);
+    font-weight: 700;
+}
+
 /* Contact */
 #contact {
     background-attachment: fixed;
@@ -186,7 +192,6 @@ background-color: transparent;
     background-size: cover;
     height: 92vh;
     margin-bottom: 0px;
-    z-index: 1; 
 }
 
 #contact.stuff {
@@ -195,7 +200,7 @@ background-color: transparent;
 .contact-text {
     padding-top: 15vh;
     text-align: center;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .center-form {
@@ -203,7 +208,8 @@ background-color: transparent;
     margin: 0 auto;
     min-width: 300px;
     width: 60vw;
-    max-width: 700px
+    max-width: 600px;
+    height: 50vh;
 }
 
 /*Div around submit button */
@@ -260,7 +266,7 @@ ul {
 }
 
 .social-links li a i:hover{
-    background: red;
+    background: rgb(0, 108, 170);
 }
 
 
