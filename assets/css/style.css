@@ -33,7 +33,7 @@ html {
 
 h1 {
     padding-top: 5%;
-    font-size: 5em;
+    font-size: 7vh;
 }
 
 .jumbotron {
@@ -41,7 +41,7 @@ h1 {
 }
 
 .jumbotron p {
-    font-size: 2em;
+    font-size: 4vh;
 }
 
 /* Navbar */
