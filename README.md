@@ -18,7 +18,15 @@ In the "About me" section, I wanted to give few information about myself with a 
 In the "Portfolio" section, I tried to give a brief overview of my skills and work I have done with link to each GitHub live demo.
 
 ## Skeleton
-add wireframes
+[Index]()
+
+[About me]()
+
+[Skills and portfolio]()
+
+[Contact page]()
+
+
 
 ## Surface
 The beach theme with turquoise sea was used to relax the user and ilicit a positive response.

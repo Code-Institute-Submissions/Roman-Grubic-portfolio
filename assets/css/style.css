@@ -10,7 +10,7 @@ html {
 
 #landing-page {
     background-attachment: fixed;
-    background-image: url('../images/background/beach-bench-3.jpg');
+    background-image: url('../images/background/beach-bench.jpg');
     background-position: bottom;
     background-size: cover;
     height: 100vh;
@@ -83,7 +83,7 @@ h1 {
 
 #about-me {
     background-attachment: fixed;
-    background-image: url('../images/background/sand-sea-2.jpg');
+    background-image: url('../images/background/sand-sea.jpg');
     background-position: bottom;
     background-size: cover;
     height: 100vh;
