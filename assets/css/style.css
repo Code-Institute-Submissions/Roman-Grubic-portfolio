@@ -6,7 +6,7 @@ html {
 }
 
 
-/* Landing page */
+/* ----- Landing page ----- */
 
 #landing-page {
     background-attachment: fixed;
@@ -26,14 +26,14 @@ html {
 	text-transform: capitalize;
 	letter-spacing: 4px;
     color: #fafafa;
-    text-shadow: -1.5px 0 #00000050, 0 1.5px #00000050, 1.5px 0 #00000050, 0 -1.5px #00000050;    
+    text-shadow: -1.5px 0 #00000066, 0 1.5px #00000066, 1.5px 0 #00000066, 0 -1.5px #00000066;    
 }
 
 /* Jumbotron */
 
 h1 {
     padding-top: 5%;
-    font-size: 7vh;
+    font-size: 10vh;
 }
 
 .jumbotron {
@@ -63,7 +63,9 @@ h1 {
 
 .btn {
     text-shadow: 1px 1px #000000;
-    width: 100px;
+    min-width: 100px;
+    width: 8vw;
+    font-size: 1.75vh;
     color: white;
     margin: 4px;
     font-weight: 500;
@@ -78,8 +80,7 @@ h1 {
     margin-right: 0;
 }
 
-
-/* About me */
+/* ----- About me ----- */
 
 #about-me {
     background-attachment: fixed;
@@ -91,12 +92,12 @@ h1 {
 }
 
 .personal-img {
-    width: 20vw;
-    height: 20vw;
+    width: 15vw;
+    height: 15vw;
     min-width: 125px;
     min-height: 125px;
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 400px;
+    max-height: 400px;
     text-align: center;
     justify-items: center;
 }
@@ -113,7 +114,7 @@ h1 {
     font-size: 2.5vh;
 }
 
-.personal-info > h3 {
+.col-7 > h3 {
     font-size: 3.5vh;
     font-weight: 700;
 }
@@ -137,12 +138,13 @@ h1 {
     padding-left: 10px;
 }
 
+/* Small Icons*/
 .fas {
     color: rgb(51, 162, 253)
 }
 
 
-/* Portfolio */
+/* ----- Portfolio ----- */
 
 #portfolio {
     background-attachment: fixed;
@@ -164,7 +166,7 @@ h1 {
 }
 
 .portfolio-header {
-    padding: 5vh 0 4vh;
+    padding: 3vh 0 3vh;
 }
 
 .portfolio-header > h2 {
@@ -180,11 +182,12 @@ h1 {
 
 .portfolio-images {
 display: block;
-width: 15vw;
-height: 15vw;
-
-max-width: 90px;
-max-height: 90px;
+min-width: 90px;
+min-height: 90px;
+width: 7.5vw;
+height: 7.5vw;
+max-width: 300px;
+max-height: 300px;
 margin: 0 auto;
 background-color: transparent;
 }
@@ -192,6 +195,11 @@ background-color: transparent;
 .portfolio-images > p {
     color: rgb(80, 80, 80);
     font-weight: 700;
+    font-size: 2vh;
+}
+
+.portfolio-icons {
+    margin: 2vh auto;
 }
 
 .portfolio-description {
@@ -206,38 +214,46 @@ background-color: transparent;
     min-height: 100px;
     max-height: 150px;
     margin-right: 5vw;
-    font-size: 17px;
+    font-size: 2vh;
     font-weight: 500;
+    margin-top: 2vh;
 }
 
-/* Contact */
+/* ----- Contact ----- */
 
 #contact {
     background-attachment: fixed;
     background-image: url('../images/background/beach-fun.jpg');
     background-position: bottom;
     background-size: cover;
-    height: 92vh;
     margin-bottom: 0px;
-}
-
-#contact.stuff {
-    height: 60vw;
+    height: 100vh;
 }
 
 .contact-text {
     padding-top: 15vh;
     text-align: center;
     color: rgb(0, 0, 0);
-    text-shadow: -1px 0 #ffffff66, 0 1px #ffffff66, 1px 0 #ffffff66, 0 -1px #ffffff66;
+    font-weight: 700;
+    text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
 }
 
-.form-center {
+/* Font-weight has to be in .contact-text > h2 to give weight*/
+.contact-text > h2 {
+    font-size: 5vh;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.contact-text > p {
+    font-size: 3vh;
+}
+
+.form-center > form {
     padding-top: 30px;
     margin: 0 auto;
-    min-width: 325px;
-    width: 45vw;
-    max-width: 600px;
+    width: 50vw;
+    min-width: 300px;
 }
 
 /*Div around submit button */
@@ -248,8 +264,8 @@ background-color: transparent;
 .btn-submit {
     margin: auto;
     background-color:rgb(51, 162, 253);
-    width: 100px;
     border: 1px solid #00000050;
+    width: 5vw;
 }
 
 .text-center {
@@ -259,10 +275,11 @@ background-color: transparent;
 .form-control {
     padding: 10px;
     margin-bottom: 5px;
+    height: 2vh;
 }
 
 
-/* Footer */
+/* ----- Footer ----- */
 
 #footer-center {
     text-align: center;
