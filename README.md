@@ -4,9 +4,9 @@
 This is my portfolio with two projects that I built so far in the course using technologies which I learned to this point. It also has a section about myself, my skills and my contact information.
 
 # Demo
-Portfolio demo can be found [here](https://romangrubic.github.io/first-milestone-project/).
+A live portfolio demo can be found [here](https://romangrubic.github.io/first-milestone-project/).
 
-![Desktop Demo](https://github.com/romangrubic/first-milestone-project/tree/master/assets/images/readme/readme-picture.png "Desktop Demo")
+![Desktop Demo](https://raw.githubusercontent.com/romangrubic/first-milestone-project/master/assets/images/readme/readme-picture.png "Desktop Demo")
 # UX
 ## Strategy  
 Simplicity. My aim was to give easy access to information and user-friendly design.
@@ -45,17 +45,15 @@ In this section, I will go over different features available in my Portfolio and
 * CSS3
 * Bootstrap (4.4)
 # Testing
-This site was was tested on multiple browsers (Google Chrome, Mozzila Firefox and Opera) and on multiple mobile devices (Samsung J6+, Huawei P Smart) and it shown responsivness and compatibility.
+This site was was tested on multiple browsers (Google Chrome, Mozzila Firefox and Opera) and on multiple mobile devices (Samsung Galaxy, Huawei, Sony) and it shown responsivness and compatibility.
 
-All links will open in new tab using 'target:"_blank"'and have been manually tested to ensure they are redirecting to correct destination.
+All links will open in a new tab using 'target="_blank"' and the CV will open in a new tab where user can preview it and download to his/hers default folder. All links have been manually tested to ensure that they are pointing to the correct destination.
 
-The contact form has been secured with 'required' attribute for 'name', 'email' and 'project description' field, otherwise it will show the user to fill out the field and will not submit.
-Also the 'email' field has to be filled with a valid email address or else will show an error for invalid email format.
+If you try to submit the contact form with an invalid email address, there will be an error noting the invalid email address. Furthermore, the 'required' attribute is added to the 'name,' 'email,' and 'message' fields, so if those fields are not filled in, the form will not submit. If all field are valid, the page will reload. If an employer or recruiter is interested in contacting me, they will have to fill out all fields in order for the form to go through.
 # Deployment
-This site is hosted using GitHub pages and will automatically update upon new commits to master branch.
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html`.
 
-In order to set this repository on GitHub pages, I had to change the settings and under "GitHub pages", 
-which is designed to host personal, organization, or project pages from a GitHub repository, publish it.  
+To run locally, you can clone this repository directly into the editor of your choice by pasting `git clone https://github.com/hschafer2017/HSCHAFER-Portfolio.git` into your terminal. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.  
 
 # Credits
 ## Content
