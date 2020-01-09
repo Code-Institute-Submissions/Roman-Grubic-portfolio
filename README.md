@@ -6,6 +6,7 @@ This is my portfolio with two projects that I built so far in the course using t
 # Demo
 Portfolio demo can be found [here](https://romangrubic.github.io/first-milestone-project/).
 
+![Desktop Demo](https://github.com/romangrubic/first-milestone-project/tree/master/assets/images/readme/readme-picture.png "Desktop Demo")
 # UX
 ## Strategy  
 Simplicity. My aim was to give easy access to information and user-friendly design.
